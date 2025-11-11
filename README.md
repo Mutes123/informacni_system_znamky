@@ -1,29 +1,48 @@
-# informacni_system_znamky
-Základní popis systému
+# Informační systém známky
 
-Cíl: 
-  Spravovat údaje o studentech, jejich předmětech a známkách. 
+## Popis systému
+Tento systém slouží ke správě údajů o studentech, jejich předmětech a známkách.  
+Cílem je poskytnout jednoduchý nástroj pro evidenci a správu studijních výsledků.
 
-Uživatelé systému: 
-  administrátor (učitel, který zadává a upravuje data) 
-  volitelně student (může vidět své známky, ale nemění data) 
+---
 
-Co systém eviduje:
+## Cíl projektu
+- Umožnit správu dat o studentech, předmětech a známkách.  
+- Poskytnout přehledné rozhraní pro učitele (administrátory).  
+- Volitelně umožnit studentům přístup k jejich vlastním známkám.
 
-  Studenti 
-    ID studenta 
-    Jméno, příjmení 
-    Datum narození 
-    Třída nebo skupina 
-    
-  Předměty 
-    ID předmětu 
-    Název předmětu
-    Učitel 
-    
-  Známky 
-    ID známky 
-    Student
-    Předmět 
-    Známka 
-    Datum 
+---
+
+## Uživatelé systému
+- **Administrátor (učitel)** – má plný přístup k datům, může přidávat, upravovat a mazat záznamy.  
+- **Student** (volitelně) – má pouze možnost prohlížet své známky, bez možnosti úprav.
+
+---
+
+## Evidovaná data
+
+### Studenti
+- **ID studenta**  
+- **Jméno a příjmení**  
+- **Datum narození**  
+- **Třída / skupina**
+
+### Předměty
+- **ID předmětu**  
+- **Název předmětu**  
+- **Učitel**
+
+### Známky
+- **ID známky**  
+- **Student** (odkaz na konkrétního studenta)  
+- **Předmět** (odkaz na konkrétní předmět)  
+- **Známka**  
+- **Datum udělení**
+
+---
+
+## Možné rozšíření
+- Webové rozhraní pro přihlášení učitelů a studentů.  
+- Export/import dat do CSV nebo JSON.  
+- Statistiky a přehledy pro učitele.  
+- Automatické generování průměrů.
