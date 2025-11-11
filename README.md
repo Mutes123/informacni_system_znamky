@@ -13,11 +13,11 @@ Co systém eviduje
     Třída nebo skupina 
   Předměty 
     ID předmětu 
-    Název předmětu (např. Matematika, Informatika) 
+    Název předmětu
     Učitel 
   Známky 
     ID známky 
-    Student (odkaz na tabulku Student) 
-    Předmět (odkaz na tabulku Předmět) 
-    Známka (např. 1–5 nebo A–F) 
+    Student
+    Předmět 
+    Známka 
     Datum 
