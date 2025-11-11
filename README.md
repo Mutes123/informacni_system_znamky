@@ -14,7 +14,7 @@ Cílem je poskytnout jednoduchý nástroj pro evidenci a správu studijních vý
 ---
 
 ## Uživatelé systému
-- **Administrátor (učitel)** – má plný přístup k datům, může přidávat, upravovat a mazat záznamy.  
+- **Administrátor** (učitel) – má plný přístup k datům, může přidávat, upravovat a mazat záznamy.  
 - **Student** (volitelně) – má pouze možnost prohlížet své známky, bez možnosti úprav.
 
 ---
@@ -22,19 +22,19 @@ Cílem je poskytnout jednoduchý nástroj pro evidenci a správu studijních vý
 ## Evidovaná data
 
 ### Studenti
-- **ID studenta**  
-- **Jméno a příjmení**  
-- **Datum narození**  
-- **Třída / skupina**
+- ID studenta
+- Jméno a příjmení
+- Datum narození
+- Třída / skupina
 
 ### Předměty
-- **ID předmětu**  
-- **Název předmětu**  
-- **Učitel**
+- ID předmětu  
+- Název předmětu  
+- Učitel
 
 ### Známky
-- **ID známky**  
-- **Student** (odkaz na konkrétního studenta)  
-- **Předmět** (odkaz na konkrétní předmět)  
-- **Známka**  
-- **Datum udělení**
+- ID známky  
+- Student (odkaz na konkrétního studenta)  
+- Předmět (odkaz na konkrétní předmět)  
+- Známka  
+- Datum udělení
