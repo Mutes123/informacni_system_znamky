@@ -1,5 +1,5 @@
 # informacni_system_znamky
-Základní popis systému 
+**Základní popis systému **
 Cíl: 
   Spravovat údaje o studentech, jejich předmětech a známkách. 
 Uživatelé systému: 
