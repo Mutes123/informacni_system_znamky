@@ -38,3 +38,6 @@ Cílem je poskytnout jednoduchý nástroj pro evidenci a správu studijních vý
 - Předmět (odkaz na konkrétní předmět)  
 - Známka  
 - Datum udělení
+
+## Figma
+https://www.figma.com/site/3dQFrJwNLhbF1ZKEy4Y01U/Untitled?node-id=0-1&p=f&t=Kc465tTThnnggmK5-0
